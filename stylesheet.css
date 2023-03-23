@@ -32,7 +32,7 @@ body
 .navbar-brand
 {
     margin-left: 10px;
-    color:#2d7373 !important;
+    color:#64ffda !important;
     font-size:20px !important;
     font-weight: bolder !important;
 }
@@ -53,7 +53,7 @@ body
 
 .nav-link
 {
-    color: #2d7373!important;;
+    color: #64ffda!important;;
 }
 
 .nav-link:hover
@@ -76,13 +76,12 @@ body
 
 .btn-warning:hover
 {
-    background-color: #2d7373 !important;
+    background-color: #64ffda !important;
 }
 
 .social-media
 {
     margin-left: 0px;
-    padding: 0px 0px 0px 5% !important;
 }
 
 .hello
@@ -133,15 +132,15 @@ h1{
 .man-test-class
 {
     padding-top: 2%;
-    padding-left: 15% !important;
+    padding-left: 20% !important;
 }
 .man-test-class2
 {
+    
     text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 2%;
+    display: block;
+    width: 40% !important;
+    margin: auto !important;
     font-size: 25px;
 }
 
@@ -149,7 +148,6 @@ h2{
     text-align: center;
     color: #cdd7f6 !important;
     font-family: 'Sono', sans-serif;
-    /* padding-left: 40%; */
     padding-top: 4%;
     padding-bottom: 4%;
 }
@@ -181,8 +179,8 @@ h2{
   }
   
   #carouselExampleSlidesOnly {
-    max-width: 600px;
-    max-height: 300px;
+    max-width: 800px;
+    max-height: 400px;
     margin: 0 auto;
   }
 
@@ -193,10 +191,53 @@ h2{
     padding-bottom: 1%;
 }
 
+h4{
+    padding-bottom: 10px !important;
+}
+
+.details
+{
+    display: block;
+    width: 50%;
+    color: #cdd7f6;
+    margin: auto;
+    padding: 10px 0px 10px 0px !important;
+}
+
+.btn-contact
+{
+    display: block !important;
+    margin: auto !important;
+
+}
+
+.btn-outline-secondary {
+    color: #64ffda !important;
+    border-color: #64ffda !important;
+  }
+
+  .btn-outline-secondary:hover {
+    color: #0a182e!important;
+    background-color:#64ffda !important ;
+    border-color: #368989 !important;
+  }
+
+.buttoonn
+{
+    padding-top: 20px;
+
+}
+
+
+h6{
+    padding-top: 2%;
+}
 h6:hover
 {
     color: #2d7373;
 }
+
+
 
 @media (max-width: 1028px)
 {
@@ -214,11 +255,20 @@ h6:hover
     margin: 0 auto;
   }
 
-
-.man-test-class2
+  .man-test-class
 {
-    font-size: medium;
+    display: block;
+    width: 88% !important;
+    margin: auto !important;
 }
+
+  .man-test-class2
+  {
+    display: block;
+    width: 85% !important;
+    margin: auto !important;
+  }
+
 
 #card-class
 {
@@ -236,6 +286,20 @@ h6:hover
 {
     padding: 0 !important;
     text-align: center;
+}
+
+h2{
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.details
+{
+    display: block;
+    width: 70%;
+    color: #cdd7f6;
+    margin: auto;
+    padding: 10px 0px 10px 0px !important;
 }
 
 }
