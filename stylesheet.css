@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono&display=swap');
+body
+{
+    font-family: "Montserrat";
+    background-color: #0a182e !important;
+    /* background-image: url("images/bg.jpg"); */
+    background-repeat: repeat;
+    background-size: cover;
+    display: block;
+    margin: 0;
+}
+.container-fluid {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+.propic{
+    height: 400px;
+    width: 400px;
+    border-radius: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.navbar{
+    background-color: #0a182e;
+}
+
+
+
+.navbar-brand
+{
+    margin-left: 10px;
+    color:#2d7373 !important;
+    font-size:20px !important;
+    font-weight: bolder !important;
+}
+
+
+.navbar-nav
+{
+    margin-right: 10px;
+    font-size:20px !important;
+}
+
+.nav-item
+{
+    font-family:'Sono', sans-serif;
+    padding: 0 18px;
+    
+}
+
+.nav-link
+{
+    color: #2d7373!important;;
+}
+
+.nav-link:hover
+{
+    color: #cdd7f6 !important;
+}
+
+.row
+{
+   margin-right: 0px !important;
+   margin-top: 10px !important;
+}
+
+.btn-warning
+{
+    font-weight:bolder;
+    background-color: #cdd7f6 !important;
+    border-color:#cdd7f6 !important;
+}
+
+.btn-warning:hover
+{
+    background-color: #2d7373 !important;
+}
+
+.social-media
+{
+    margin-left: 0px;
+    padding: 0px 0px 0px 5% !important;
+}
+
+.hello
+{
+    color: red !important;
+}
+
+.name
+{
+    color:#cdd7f6 !important;
+}
+
+#title
+{
+    padding-top: 2%;
+}
+
+h1{
+
+    font-family:'Sono', sans-serif;
+    padding-top: 10%;
+    margin-top: 20px !important;
+    margin-left: 60px;
+    color: #cdd7f6!important;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#features
+{
+    padding-top: 5%;
+    padding-left:1%;
+    padding-bottom:5%;
+    font-size: x-large;
+    color: #cdd7f6;
+}
+
+.feature-box
+{
+    text-align: center;
+}
+
+#about-me
+{
+    background-color: rgba(161,215,239,255);
+}
+ 
+.man-test-class
+{
+    padding-top: 2%;
+    padding-left: 15% !important;
+}
+.man-test-class2
+{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2%;
+    font-size: 25px;
+}
+
+h2{
+    text-align: center;
+    color: #cdd7f6 !important;
+    font-family: 'Sono', sans-serif;
+    /* padding-left: 40%; */
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+#cards
+{
+    padding-top: 2%;
+    padding-bottom: 3%;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.skills
+{
+    height: 80px;
+}
+
+.card-body
+{
+    text-align: center !important;
+}
+
+#slides {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    
+  }
+  
+  #carouselExampleSlidesOnly {
+    max-width: 600px;
+    max-height: 300px;
+    margin: 0 auto;
+  }
+
+#copyright
+{
+    text-align: center;
+    color:#cdd7f6 ;
+    padding-bottom: 1%;
+}
+
+h6:hover
+{
+    color: #2d7373;
+}
+
+@media (max-width: 1028px)
+{
+#slides
+{
+    display: block;
+    height: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#carouselExampleSlidesOnly {
+    max-width: 250px;
+    max-height: 100px;
+    margin: 0 auto;
+  }
+
+
+.man-test-class2
+{
+    font-size: medium;
+}
+
+#card-class
+{
+    padding-bottom: 10% !important;
+}
+
+#features
+{
+    padding: 0 !important;
+    font-size: large;
+    color: #cdd7f6;
+}
+
+.feature-box
+{
+    padding: 0 !important;
+    text-align: center;
+}
+
+}
